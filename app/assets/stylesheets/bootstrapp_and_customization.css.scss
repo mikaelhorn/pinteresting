@@ -1,8 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,900);
+
+
+
 $body_bg: #3498DB;
+$font-family-sans-serif: 'Lato';
+$headings-font-weight: 900;
+
 
 
 $navbar-inverse-bg: white;
-$navbar-inverse-link-color: #3F3F3F;
+$navbar-height: 45px;
+$navbar-inverse-link-color: black;
+
+$navbar-inverse-toggle-icon-bar-bg: black;
+
 
 @import 'bootstrap';
 
+.center {
+
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+
+.spacing {
+
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
