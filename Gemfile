@@ -15,22 +15,17 @@ gem 'bootstrap-sass'
 
 
 group :development, :test do
-gem 'sqlite3'
-gem 'spring'
-gem 'byebug'
-gem 'web-console', '~> 2.0'
-
-
+    gem 'sqlite3'
+    gem 'spring'
+    gem 'byebug'
+    gem 'web-console', '~> 2.0'
 end
 
 group :production do
-gem 'pg'
-gem 'rails_12factor',
-
+  gem 'pg'
+  gem 'rails_12factor'
 end
 
 group :doc do
-    
-gem 'sdoc', '~> 0.4.0'
-
-    end
+  gem 'sdoc', '~> 0.4.0'
+end
